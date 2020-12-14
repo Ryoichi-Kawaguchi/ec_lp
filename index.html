@@ -2,12 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="css/destyle.css">
+<link rel="stylesheet" href="css/destyle.css">
+<link rel="stylesheet" href="css/style.min.css">
 <title></title>
 </head>
 <body>
 <header class="header">
-    <h1 class="primary-heading header__logo"></h1>
+    <h1 class="primary-heading header__logo">title</h1>
     <nav class="header__nav">
         <a href="" role="button" class="button header__button">login</a>
     </nav>
@@ -19,15 +20,20 @@
     <div class="mv__detail">
         <h2 class="secondary-heading mv__detail__heading">タイトルテキスト</h2>
         <p class="common-text mv__detail__text">タイトル下のテキストがはいります。 タイトル下のテキストがはいります。 </p>
-        <a href="#" class="mv__detail__arrow"></a>
+        <p class="mv__detail__arrow"><a href="#">
+            <img src="images/arrow_button.png" 
+            srcset="images/arrow_button@2x.png 2x" 
+            alt="">
+          </a>
+        </p>
     </div>
 </div>
 
 <section class="section first-column">
-    <div class="section__body section__body-left">
-        <img src="" class="section__body__img">
+    <div class="section__body section__img-column section__body-left">
+        <img src="images/section_img01.png" class="section__body__img">
     </div>
-    <div class="section__body section__body-right">
+    <div class="section__body section__text-column section__body-right">
         <h2 class="primary-heading section__body__heading">
             <p class="section__body__heading-min">子見出しが入ります</p>
             見出しが入ります
@@ -37,10 +43,10 @@
 </section>
 
 <section class="section second-column">
-    <div class="section__body section__body-left">
-        <img src="" class="section__body__img">
+    <div class="section__body section__img-column section__body-right">
+        <img src="images/section_img02.png" class="section__body__img">
     </div>
-    <div class="section__body section__body-right">
+    <div class="section__body section__text-column section__body-left">
         <h2 class="primary-heading section__body__heading">
             <p class="section__body__heading-min">子見出しが入ります</p>
             見出しが入ります
